@@ -1,0 +1,7 @@
+com.nuyhead.minimals.app-pngs-0 /Users/a-/minimals/android/app/build/generated/res/pngs/debug
+com.nuyhead.minimals.app-resValues-1 /Users/a-/minimals/android/app/build/generated/res/resValues/debug
+com.nuyhead.minimals.app-packageDebugResources-2 /Users/a-/minimals/android/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.nuyhead.minimals.app-packageDebugResources-3 /Users/a-/minimals/android/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.nuyhead.minimals.app-merged_res-4 /Users/a-/minimals/android/app/build/intermediates/merged_res/debug
+com.nuyhead.minimals.app-debug-5 /Users/a-/minimals/android/app/src/debug/res
+com.nuyhead.minimals.app-main-6 /Users/a-/minimals/android/app/src/main/res

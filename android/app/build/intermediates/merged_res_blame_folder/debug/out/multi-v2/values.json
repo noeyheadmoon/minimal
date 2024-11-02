@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.nuyhead.minimals.app-mergeDebugResources-2:/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/a-/minimals/android/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2,4,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,167,114",
+                        "endColumns": "58,48,52",
+                        "endOffsets": "109,211,162"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,114,163",
+                        "endColumns": "58,48,52",
+                        "endOffsets": "109,158,211"
+                    }
+                },
+                {
+                    "source": "/Users/a-/minimals/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,818",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "476,982"
+                    },
+                    "to": {
+                        "startLines": "5,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "216,397",
+                        "endLines": "8,11",
+                        "endColumns": "12,12",
+                        "endOffsets": "392,561"
+                    }
+                }
+            ]
+        }
+    ]
+}

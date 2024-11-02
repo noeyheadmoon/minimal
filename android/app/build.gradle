@@ -1,64 +1,49 @@
 plugins {
     id 'com.android.application'
-    id 'org.jetbrains.kotlin.android'
-    // 필요한 경우 추가
-    id 'com.google.gms.google-services' // Google Services 플러그인
-    id 'dev.flutter.flutter-gradle-plugin' // Flutter Gradle 플러그인
-}
-
-def flutterRoot = localProperties.getProperty('flutter.sdk')
-if (flutterRoot == null) {
-    throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
-}
-
-def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
-if (flutterVersionCode == null) {
-    flutterVersionCode = '1'
-}
-
-def flutterVersionName = localProperties.getProperty('flutter.versionName')
-if (flutterVersionName == null) {
-    flutterVersionName = '1.0'
+    id 'kotlin-android'
+    id "dev.flutter.flutter-gradle-plugin"
 }
 
 android {
-    namespace 'com.nuyhead.minimals'
-    compileSdkVersion 33 // Flutter SDK와 일치하도록 설정
-    ndkVersion flutter.ndkVersion
+    namespace = "com.nuyhead.minimals"
+    compileSdk = 34
+
+    defaultConfig {
+        applicationId = "com.nuyhead.minimals"
+        minSdk = 23
+        targetSdk = 34
+        versionCode = 1
+        versionName = "1.0"
+    }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
 
     kotlinOptions {
-        jvmTarget = '17'
-    }
-
-    defaultConfig {
-        applicationId "com.nuyhead.minimals"
-        minSdkVersion 21
-        targetSdkVersion 33
-        versionCode flutterVersionCode.toInteger()
-        versionName flutterVersionName
+        jvmTarget = "1.8"
     }
 
     buildTypes {
         release {
-            // 릴리스 빌드를 위한 최적화 설정
             minifyEnabled true
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.debug // 실제 릴리스에서는 적절한 서명 구성을 사용하세요.
+            // signingConfig signingConfigs.debug  // 실제 서명 구성이 없다면 이 줄을 주석 처리하거나 제거하세요.
+        }
+        debug {
+            minifyEnabled false
+            shrinkResources false
         }
     }
 }
 
-flutter {
-    source '../..'
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    // 기타 의존성들
 }
 
-dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7"
-    // 필요한 의존성 추가
+flutter {
+    source = "../.."
 }

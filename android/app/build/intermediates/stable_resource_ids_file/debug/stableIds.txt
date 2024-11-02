@@ -1,0 +1,7 @@
+com.nuyhead.minimals:style/NormalTheme = 0x7f040001
+com.nuyhead.minimals:style/LaunchTheme = 0x7f040000
+com.nuyhead.minimals:string/client_id = 0x7f030000
+com.nuyhead.minimals:string/client_secret = 0x7f030002
+com.nuyhead.minimals:string/client_name = 0x7f030001
+com.nuyhead.minimals:mipmap/ic_launcher = 0x7f020000
+com.nuyhead.minimals:drawable/launch_background = 0x7f010000

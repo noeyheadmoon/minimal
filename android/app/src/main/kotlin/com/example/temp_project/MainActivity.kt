@@ -1,5 +1,6 @@
-package com.example.temp_project
+package com.nuyhead.minimals
 
 import io.flutter.embedding.android.FlutterActivity
 
-class MainActivity: FlutterActivity()
+class MainActivity: FlutterActivity() {
+}
