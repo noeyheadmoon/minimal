@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "688802619926",
+    "firebase_url": "https://minimals-51c79-default-rtdb.firebaseio.com",
+    "project_id": "minimals-51c79",
+    "storage_bucket": "minimals-51c79.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688802619926:android:07c8b479d317e235168b37",
+        "android_client_info": {
+          "package_name": "com.nuyhead.minimals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688802619926-ubcb56c182b6gvuji51055mg8puba5es.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nuyhead.minimals",
+            "certificate_hash": "9991fa835dfa41d130de84cae761f91abff82739"
+          }
+        },
+        {
+          "client_id": "688802619926-6gjfr7kp8l38pl9alp1go6s5i99m3leu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRjzLiXSTxDDX48FWhw-s3sY6fslTRZB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688802619926-6gjfr7kp8l38pl9alp1go6s5i99m3leu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "688802619926-avvupv5tdno4ne8ag0hdgf2dtf9namae.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nuyhead.minimals"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
