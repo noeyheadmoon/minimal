@@ -7,6 +7,7 @@ import 'package:minimals/screen/home.dart';
 import 'package:minimals/screen/info.dart';
 import 'package:minimals/screen/login.dart';
 import 'package:minimals/screen/splash.dart';
+import 'package:minimals/screen/map.dart';
 import 'firebase_options.dart';
 
 void main() async {
@@ -41,6 +42,7 @@ class MyApp extends StatelessWidget {
         '/login': (context) => const Login(),
         '/home': (context) => const HomeScreen(),
         '/info': (context) => const InfoScreen(),
+        '/map': (context) => const MapScreen(),
       },
     );
   }

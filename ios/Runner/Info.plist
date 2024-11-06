@@ -70,6 +70,18 @@
         <string>minimals</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>현재 위치를 표시하기 위해 위치 권한이 필요합니다.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>항상 위치를 사용하여 검색을 최적화합니다.</string>
+
+	<key>GMSApiKey</key>
+	<string>AIzaSyBVI41IWtw_gCJunfv3IkyRJKgngGRVBfU</string>
+
+	<key>io.flutter.embedded_views_preview</key>
+	<string>YES</string>
+
     <key>NSAppTransportSecurity</key>
     <dict>
         <key>NSAllowsArbitraryLoads</key>

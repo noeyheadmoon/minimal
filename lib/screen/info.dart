@@ -8,9 +8,9 @@ class InfoScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Info'),
-      ),
+      //appBar: AppBar(
+      //  title: Text('Info'),
+      //),
       body: const Center(
         child: Text('Info Screen'),
       ),

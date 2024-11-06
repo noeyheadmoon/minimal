@@ -1,6 +1,7 @@
 import Flutter
 import UIKit
 import NaverThirdPartyLogin
+import GoogleMaps
 
 @main
 @objc class AppDelegate: FlutterAppDelegate {
@@ -8,7 +9,9 @@ import NaverThirdPartyLogin
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
     ) -> Bool {
-        GeneratedPluginRegistrant.register(with: self)
+          GMSServices.provideAPIKey("AIzaSyBVI41IWtw_gCJunfv3IkyRJKgngGRVBfU")
+          
+          GeneratedPluginRegistrant.register(with: self)
         
           NaverThirdPartyLoginConnection.getSharedInstance()?.isNaverAppOauthEnable = true
           NaverThirdPartyLoginConnection.getSharedInstance()?.isInAppOauthEnable = true

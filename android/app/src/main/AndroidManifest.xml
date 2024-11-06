@@ -2,12 +2,18 @@
     package="com.nuyhead.minimals">
 
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 
     <application
         android:label="minimals"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBVI41IWtw_gCJunfv3IkyRJKgngGRVBfU"/>
+
         <meta-data
             android:name="com.naver.sdk.clientId"
             android:value="@string/client_id" />
